@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin: 30px auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*   border: 1px solid transparent; */
+  padding: 20px;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #c5953c;
+}
+
+h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-self: center;
+  gap: 15px;
+}
+
+p {
+  margin: 16px 0;
+  line-height: 1.3;
+}
+
+li a:link,
+li a:visited {
+  color: #222;
+  transition: all 0.2s ease;
+}
+
+li a:hover,
+li a:active {
+  color: #c5953c;
+}
+
+.featured-link:link,
+.featured-link:visited {
+  color: #c5953c;
+}
+
+.icon {
+  font-size: 19px;
+}
+
+/* Swiper */
+.swiper {
+  width: 700px;
+  height: 300px;
+}
+
+.arrow {
+  color: #c5953c;
+}
+
+.swiper-scrollbar-drag {
+  background: #c5953c !important;
+}
