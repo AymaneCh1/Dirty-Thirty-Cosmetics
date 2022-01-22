@@ -79,7 +79,7 @@ li a:active {
 
 /* Swiper */
 .swiper {
-  width: 700px;
+  max-width: 700px;
   height: 300px;
 }
 
@@ -89,4 +89,11 @@ li a:active {
 
 .swiper-scrollbar-drag {
   background: #c5953c !important;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
 }
